@@ -45,7 +45,7 @@ class Login : AppCompatActivity() {
 
         } else if (strAge >= 18 && edEnterAge.text.toString().isNotEmpty()) {
 
-            // Scope functions, and Lambda expression
+        // Scope functions, and Lambda expression
             val intent = Intent(this, MainActivity::class.java).apply {
                 putExtra(ExtraMessage, strName)
             }
@@ -54,13 +54,13 @@ class Login : AppCompatActivity() {
             Toast.makeText(applicationContext, "Welcome $strName", Toast.LENGTH_SHORT).show()   //String template
 
         } else if (strAge <= 18) {
-            //Named Argument
+        //Named Argument
             showToast(context = applicationContext,
                 message = "You are not allowed to view this",
                 duration = Toast.LENGTH_SHORT)
 
-            //Required parameter
-//            showToast(message = "You are not allowed to view this")
+        //Required parameter
+        //showToast(message = "You are not allowed to view this")
         }
     }
 
