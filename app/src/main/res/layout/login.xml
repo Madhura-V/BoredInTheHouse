@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageViewAppIcon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/layout_margin"
+            android:contentDescription="@string/app_name"
+            app:srcCompat="@drawable/app_icon"
+            android:layout_marginTop="@dimen/layout_margin"
+            />
+
+        <TextView
+            android:id="@+id/textViewAppName"
+            style="@style/TitleStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/days_one"
+            android:text="@string/boredinthehouse_title" />
+
+        <EditText
+            android:id="@+id/edEnterName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/EnterName"
+            android:inputType="textCapSentences|textPersonName"
+            android:layout_marginTop="@dimen/layout_margin"
+            android:layout_marginBottom="@dimen/layout_margin"
+            />
+
+        <EditText
+            android:id="@+id/edEnterAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/EnterAge"
+            android:inputType="number"
+            android:maxLength="2"
+            />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/layout_margin"
+            android:layout_marginBottom="@dimen/layout_margin"
+            android:background="@drawable/btn"
+            android:text="@string/Click"
+            android:textColor="@color/colorWhite" />
+
+    </LinearLayout>
+</ScrollView>

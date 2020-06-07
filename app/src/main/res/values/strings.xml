@@ -1,0 +1,13 @@
+<resources>
+        <string name="app_name">Bored In The House</string>
+    <string name="boredinthehouse_title">Bored in the House</string>
+    <string name="activity_title">Choose an Activity</string>
+    <string name="Bored">I am Bored!</string>
+    <string name="Result">Result</string>
+
+    <string name="EnterName">Enter Name</string>
+    <string name="EnterAge">Enter Age</string>
+    <string name="Click">Enter</string>
+    <string name="share">Share my activity</string>
+
+</resources>
